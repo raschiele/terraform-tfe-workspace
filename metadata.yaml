@@ -1,0 +1,12 @@
+# https://confluence.rz.bankenit.de/confluence/display/TFDP/TFDP+Architektur-%20und%20Informationsmodell
+kind: Baustein
+id: c0c23a25-2d84-4b23-954f-fe5a3a478048
+name: TFE Workspace
+beschreibung: Terraform-Modul zum Anlegen eines isolierten Workspaces in TFE
+owner: Maximilian Wörner
+state: implementation # planned | implementation | usable | discontinued | deprecated | out
+# depdate: Wenn der Status "discontinued" ist, muss hier das Datum stehen, an dem der Status "deprecated" gesetzt werden wird. Sonst leer.
+# contains: Liste von Baustein-Versionen, die in diesem Baustein unmittelbar enthalten sind in der Form {name: Baustein-Kurzname,vers: semantische Version z.B. "0.5.0"}
+# needs: Liste von Baustein-Vers
+type: Terraform
+capability: tbd
